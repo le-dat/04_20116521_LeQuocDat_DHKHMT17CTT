@@ -1,0 +1,64 @@
+* {
+    padding: 0px;
+    margin: 0px auto
+}
+
+.wrapper {
+    height: 700px;
+    width: 1089px;
+    background-color: antiquewhite;
+}
+
+body {
+    background-image: url("../img/download.jpg");
+}
+
+header {
+    height: 150px;
+    width: 100%;
+    background-color: aquamarine;
+    position: relative;
+}
+
+nav {
+    height: 50px;
+    width: 100%;
+    background-color: blueviolet;
+}
+
+.content {
+    height: 350px;
+    width: 100%;
+    background-color: rgb(153, 140, 165);
+}
+
+.footer {
+    height: 250px;
+    width: 100%;
+    background-color: chocolate;
+}
+
+aside {
+    height: 350px;
+    width: 40%;
+    background-color: rgb(185, 176, 169);
+    float: left;
+}
+
+section {
+    height: 350px;
+    width: 60%;
+    background-color: rgb(83, 67, 56);
+    float: right;
+}
+
+.top-menu {
+    position: absolute;
+    top: 70px;
+    right: 20px;
+    width: 400px;
+    height: 50px;
+    background-color: cyan;
+    display: flex;
+    align-items: center;
+}
